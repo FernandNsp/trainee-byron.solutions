@@ -1,0 +1,12 @@
+body{
+   background: linear-gradient(329.54deg, hsl(143, 100%, 36%) 0%, #2cd2d8 100%) no-repeat;
+   min-height: 100vh;
+   overflow-y: hidden;   
+}
+
+.section{
+   margin-top: 20px;
+   padding: 1px 10px;
+   border-radius: 5px;
+   background-color: #FFF;
+}

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Bikcraft - Produtos sustentáveis</title>
+      <link rel="shortcut icon" href="img/icones/favicon.ico">
+
+      <meta name="description" content="Bicicletas com conforto em cada linha, seja Passeio, Esporte ou Retrô.">
+      <meta property="og:type" content="website"/>
+      <meta property="og:title" content="Bikcraft - Bikcraft - Produtos sustentáveis"/>
+      <meta property="og:description" content="Bicicletas com conforto em cada linha, seja Passeio, Esporte ou Retrô."/>
+      <meta property="og:url" content="https://bikcraft.com/produtos.html"/>
+      <meta property="og:image" content="https://bikcraft.com/img/og-image.png">
+      
+      <link rel="stylesheet" href="css/style-raiz.css">
+      
+      <script>document.documentElement.classList.add("js");</script>
+   </head>
+   
+   <body>
+      <header class="header">
+         <div class="container">
+            <a href="index.html" class="grid-2">
+               <img src="img/home/bikcraft.svg" alt="logo-bikcraft">
+            </a>
+
+            <nav class="grid-14 header_menu"> <!-- Navegacao do site -->
+               <ul>
+                  <li><a href="sobre.html">Sobre</a></li>
+                  <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+                  <li><a href="portfolio.html">Portifólio</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+               </ul>
+            </nav>
+         </div>
+      </header>
+      <!-- Fecha Header -->
+
+      <section class="introducao-interna introducao-produtos">
+         <div class="container">
+            <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+            <p data-anime="800" class="fadeInDown">Conheça todos os nossos produtos</p>
+         </div>
+      </section>
+      <!-- Fecha Introducao -->
+
+      <section data-anime="1200" class="container produto_item fadeInDown">
+         <div class="grid-11">
+            <img src="img/produtos/foto-passeio-titulo.jpg" alt="Bicicleta Passeio">
+            <h2>Passeio</h2>
+         </div>
+
+         <div class="grid-5 produto_icone">
+            <img src="img/icones/passeio.svg" alt="Icone passeio">
+         </div>
+
+         <div class="grid-8">
+            <img src="img/produtos/foto-passeio.jpg" alt="Bicicleta Passeio 2">
+         </div>
+
+         <div class="grid-8 produto_info">
+            <p>Muito melhor do que passear pela orla a vidros fechados. A Bikcraft Passeio é uma bicicleta que une conforto e praticidade para o seu dia a dia. Você nunca mais vai querer saber de outra.</p>
+
+            <ul>
+               <li>Conforto</li>
+               <li>Velocidade</li>
+               <li>Design</li>
+               <li>Versatilidade</li>
+            </ul>
+         </div>
+      </section>
+      
+      <section data-anime="1200" class="container produto_item fadeInDown">
+         <div class="grid-11">
+            <img src="img/produtos/foto-esporte-titulo.jpg" alt="Bicicleta Espote">
+            <h2>Esporte</h2>
+         </div>
+
+         <div class="grid-5 produto_icone">
+            <img src="img/icones/esporte.svg" alt="Icone esporte">
+         </div>
+
+         <div class="grid-8">
+            <img src="img/produtos/foto-esporte.jpg" alt="Bicicleta Esporte 2">
+         </div>
+
+         <div class="grid-8 produto_info">
+            <p>Mais rápida do que Forrest Gump, ninguém vai pegar você. A Bikcraft Esporte é uma bicicleta desenhada para a máxima performance. O seu desempenho supera qualquer uma da categoria.</p>
+
+            <ul>
+               <li>Conforto</li>
+               <li>Velocidade</li>
+               <li>Design</li>
+               <li>Versatilidade</li>
+            </ul>
+         </div>
+      </section>
+
+      <section data-anime="1200" class="container produto_item fadeInDown">
+         <div class="grid-11">
+            <img src="img/produtos/foto-retro-titulo.jpg" alt="Bicicleta Retro">
+            <h2>Retro</h2>
+         </div>
+
+         <div class="grid-5 produto_icone">
+            <img src="img/icones/retro.svg" alt="Icone retro">
+         </div>
+
+         <div class="grid-8">
+            <img src="img/produtos/foto-retro.jpg" alt="Bicicleta Retro 2">
+         </div>
+
+         <div class="grid-8 produto_info">
+            <p>O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô é uma bicicleta estiloza, feita para você que gosta do clássico, mas que não abre mão do conforto.</p>
+
+            <ul>
+               <li>Conforto</li>
+               <li>Velocidade</li>
+               <li>Design</li>
+               <li>Versatilidade</li>
+            </ul>
+         </div>
+      </section>
+      <!-- Fecha Produtos -->
+
+      <section class="orcamento">
+         <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>
+
+            <form id="form_orcamento" method="POST" action="./enviar.php" class="form grid-8 formphp">
+               <label for="nome">Nome</label>
+               <input type="text" name="nome" id="nome" required>
+
+               <label for="email">E-mail</label>
+               <input type="email" name="email" id="email" required>
+
+               <label for="telefone">Telefone</label>
+               <input type="text" name="telefone" id="telefone">
+
+               <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+               <input type="text" class="nao-aparece" name="leaveblank">
+               <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+               <input type="text" class="nao-aparece" name="dontchange" value="http://">
+
+               <label for="mensagem">Mensagem</label>
+               <textarea name="mensagem" id="mensagem" required></textarea>
+
+               <button id ="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+            </form>
+
+            <div class="orcamento_dados grid-8">
+               <h3>Dados</h3>
+               <span>+55 35 99999-9999</span>
+               <span>orçamento@bikecraft.com</span>
+
+               <h3>Monte a sua Bikecraft</h3>
+               <p>Escolha as especificações:</p>
+               <ul>
+                  <li>- Cores</li>
+                  <li>- Estilo</li>
+                  <li>- Acessórios</li>
+                  <li>- Medidas</li>
+                  <li>- E Outros</li>
+               </ul>
+            </div>
+         </div>
+
+      </section>
+      <!-- Fecha Orcamento -->
+
+      <div class="quebra">
+         <blockquote class="quote-externo container">
+            <p>""o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana""</p>
+            <cite>WILLIAM MORRIS</cite>
+         </blockquote>
+      </div>
+      <!-- Fecha Quebra -->
+
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="grid-8 footer_historia">
+                  <h3>Nossa História</h3>
+                  <p>Quando iniciamos a Bikcraft queriamos apenas um produto que adoraríamos utilizar. Eramos apaixonados por pedalar e também por fazer as coisas com as nossas próprias mãos. Assim surgiu um sonho na garagem da nossa casa.</p>
+               </div>
+
+               <div class="grid-4 footer_contato">
+                  <h3>Contato</h3>
+                  <ul>
+                     <li>- 35 99999-9999</li>
+                     <li>- contato@bikecraft.com</li>
+                     <li>- Rua Darkside - Tatooine</li>
+                  </ul>
+               </div>
+
+               <div class="grid-4 footer_redes">
+                  <h3>Redes Sociais</h3>
+                  <ul>
+                     <li><a href="https://www.facebook.com/" target="_blank" rel="external"><img src="img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+
+                     <li><a href="https://www.instagram.com/" target="_blank" rel="external"><img src="img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+
+                     <li><a href="https://twitter.com/home" target="_blank" rel="external"><img src="img/redes-sociais/twitter.svg" alt="Twiter"></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         
+         <div class="copy">
+            <div class="container">
+               <p class="grid-16">Bikecraft 2021 - Alguns direitos reservados.</p>
+            </div>
+         </div>
+      </footer>
+
+      <script src="./js/simple-anime.js"></script>
+      <script src="./js/simple-form.js"></script>
+      <script src="./js/script-craft.js"></script>
+   </body>
+</html>

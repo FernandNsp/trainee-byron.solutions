@@ -1,0 +1,25 @@
+.introducao-sobre{
+   background: url(../img/sobre-contato/bg-sobre.jpg) no-repeat center;
+   background-size: cover;
+}
+
+.missao_sobre{
+   padding-top: 60px;
+}
+
+.missao_sobre p{
+   padding-right: 60px;
+   margin-bottom: 1em;
+   font-size: 18px;
+   line-height: 25px;
+}
+
+.missao_sobre ul li{
+   font-size: 18px;
+   line-height: 30px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foto-equipe{
+   padding-top: 20px;
+}

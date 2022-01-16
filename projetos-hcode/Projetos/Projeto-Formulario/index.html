@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario</title>
+
+      <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./css/style-formulario.css">
+   </head>
+
+   <body>
+      <div class="container">
+         <form novalidate class="section needs-validation">
+            <div class="row">
+               <div class="my-4 col mb-3">
+                  <label for="first" class="form-label">Primeiro nome <span class="text-danger">*</span>
+                  </label>
+
+                  <input type="text" class="form-control" name="first" id="first" required>
+                  <div class="valid-feedback">Tudo certo!</div>
+               </div>
+      
+               <div class="my-4 col mb-3">
+                  <label for="last" class="form-label">Último nome</label>
+
+                  <input type="text" class="form-control" name="last" id="last" required>
+               </div>
+            </div>
+   
+            <div class="row">
+               <div class="col-sm-3 mb-3">
+                  <label for="zipcode" class="form-label">CEP <span class="text-danger">*</span></label>
+
+                  <input type="text" class="form-control" name="zipcode" id="first" required>
+                  <div class="valid-feedback">Tudo certo!</div>
+               </div>
+            </div>
+   
+            <div class="row">
+               <div class="col-sm-9 mb-3">
+                  <label for="address" class="form-label">Endereço <span class="text-danger">*</span></label>
+
+                  <input type="text" class="form-control" name="address" id="address" placeholder="Rua, Av..." required>
+               </div>
+   
+               <div class="col-sm-3 mb-3">
+                  <label for="number" class="form-label">Número <span class="text-danger">*</span></label>
+
+                  <input type="number" class="form-control" name="number" id="first" required>
+               </div>
+            </div>
+   
+            <div class="row">
+               <div class="col-sm-6 mb-3">
+                  <label for="complement" class="form-label">Complemento</label>
+                  <input type="text" class="form-control" name="complement" id="complement">
+               </div>
+   
+               <div class="col-sm-6 mb-3">
+                  <label for="district" class="form-label">Bairro <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" name="district" id="district" required>
+               </div>
+            </div>
+   
+            <div class="row">
+               <div class="col-sm-4 mb-3">
+                  <label for="city" class="form-label">Cidade <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" name="city" id="city" required>
+               </div>
+   
+               <div class="col-6 col-sm-4 mb-3">
+                  <label for="state" class="form-label">Estado <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" name="state" id="state" required>
+               </div>
+   
+               <div class="col-6 col-sm-4 mb-3">
+                  <label for="country" class="form-label">País <span class="text-danger">*</span></label>
+                  <input type="text" class="form-control" name="country" id="country" required>
+               </div>
+
+               <div class="my-3 d-grid">
+                  <button type="submit" class="btn btn-success">Salvar</button>
+               </div>
+            </div>
+         </form>
+      </div>
+   
+      <script src="./node_modules/bootstrap/dist/js/jquery.min.js"></script>
+      <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+         window.addEventListener('load', e => {
+            const form = document.querySelector('form');
+
+            form.addEventListener('submit', es =>{
+               if(form.checkValidity() === false){
+                  es.preventDefault();
+                  es.stopPropagation(); 
+               }
+
+               form.classList.add('was-validated');
+            });
+         });
+      </script>
+   </body>
+</html>

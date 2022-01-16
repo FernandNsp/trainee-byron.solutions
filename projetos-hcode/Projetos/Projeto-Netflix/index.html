@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Netflix - Projeto</title>
+      <link rel="shortcut icon" href="./assets/img/gerais/favicon.ico" type="image/x-icon">
+      
+      <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="./assets/css/style-netflix.css">
+   </head>
+
+   <body>
+      <nav class="navbar sidebar-open navbar-dark bg-dark fixed-top">
+         <button type="button" class="navbar-toggler d-lg-none">
+            <img src="./assets/img/gerais/hamburger.gif" alt="Menu">
+         </button>
+         
+         <a href="#" class="navbar-brand flex-grow-1">
+            <img src="./assets/img/gerais/logo.png" alt="Netflix" class="netflix my-1 mx-2"> 
+         </a>
+
+         <ul class="nav text-white d-none d-lg-flex font-weight-bold">
+            <!-- LG -->
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link active d-xl-none">Navegar</a>
+            </li>
+
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link d-xl-none">Infantil</a>
+            </li>
+
+            <!-- XL -->
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link active d-none d-xl-flex">Inicio</a>
+            </li>
+
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link d-none d-xl-flex">Séries</a>
+            </li>
+
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link d-none d-xl-flex">Filmes</a>
+            </li>
+            
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link d-none d-xl-flex">Minha lista</a>
+            </li>
+
+            <li class="nav-item">
+               <a href="#" class="text-reset nav-link d-none d-xl-flex">Adicionados recentemente</a>
+            </li>
+         </ul>
+
+         <!-- FORM -->
+         <form class="form-inline">
+            <input type="search" class="form-control" placeholder="buscar">
+         </form>
+
+         <div class="media text-white p-2 d-none d-lg-flex">
+            <img src="./assets/img/gerais/avatar.jpg" alt="Avatar" class="mr-2"> 
+            
+            <div class="media-body">
+               <p class="h6 m-0"><span class="text-uppercase">Fernanda Sene</span></p>
+            </div>
+         </div>
+         
+         <ul class="list-unstyled font-weight-bold sidebar d-lg-none d-xl-none">
+            <li class="media media-avatar">
+               <img src="./assets/img/gerais/avatar.jpg" alt="Avatar" class="mr-2"> 
+               
+               <div class="media-body">
+                  <p class="h6 m-0"><span class="text-uppercase">Fernanda Sene</span></p>
+                  <small>Trocar de perfil</small>
+               </div>
+            </li>
+            
+            <li class="divider"></li>
+            <li><a href="#" class="text-reset active">Inicio</a></li>
+            <li><a href="#" class="text-reset">Minha lista</a></li>
+            <li><a href="#" class="text-reset">Downloads</a></li>
+            <li><a href="#" class="text-reset">Documentarios</a></li>
+            <li><a href="#" class="text-reset">Séries</a></li>
+            <li><a href="#" class="text-reset">Filmes</a></li>
+            <li><a href="#" class="text-reset"></a>Desenhos</li>
+            <li><a href="#" class="text-reset"></a>Animes</li>
+         </ul>
+      </nav>
+         
+      <div class="container-fluid">
+         <div class="row">
+            <!-- Principal -->
+            <div class="col-12 full-banner text-white">
+                  <div class="p-4">
+                     <h1 class="h3">Vingadores: Ultimato</h1>
+                     
+                     <small class="d-flex my-2">
+                        <span class="mr-3">2019</span>
+                        <span class="mr-3">12</span>
+                        <span>182 min</span>
+                     </small>
+                     <p class="d-none d-lg-block">Após Thanos eliminar metade das criaturas vivas, os Vingadores têm de lidar com a perda de amigos e entes queridos. Com Tony Stark vagando perdido no espaço sem água e comida, Steve Rogers e Natasha Romanov lideram a resistência contra o titã louco.</p>
+
+                     <a href="#" class="btn btn-danger text-uppercase font-weight-bold">Assistir</a>
+                  </div>
+            </div>
+         </div>
+
+         <!-- Lista de Filmes -->
+         <div class="row no-gutters">
+            <div class="col-12">
+               <div class="p-3 list-titles">
+                  <h2 class="h4">Adicionados recentemente</h2>
+
+                  <div class="d-flex flex-nowrap overflow-hidden">
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/capitao-america-o-primeiro-vingador.jpg" alt="Capitão America" class="w-100 rounded"></a>
+                  
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/eu-sou-a-lenda.jpg" alt="Eu sou a Lenda" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/greys-anatomy.jpg" alt="Greys Anatomy" class="w-100 rounded"></a>
+                  
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/thor-o-mundo-sombrio.jpg" alt="Thor: o mundo sombrio" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/homem-de-ferro.jpg" alt="Homem de ferro" class="w-100 rounded"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Lista de Filmes 2 -->
+         <div class="row no-gutters">
+            <div class="col-12">
+               <div class="p-3 list-titles">
+                  <h2 class="h4">Em alta</h2>
+
+                  <div class="d-flex flex-nowrap overflow-hidden">
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/guardios-da-galaxia.jpg" alt="Guardiões da Galaxia" class="w-100 rounded"></a>
+                     
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/the-rain.jpg" alt="The Rain" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/o-menino-que-descobriu-o-vento.jpg" alt="The Rain" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/homem-de-ferro.jpg" alt="Homem de ferro" class="w-100 rounded"></a>            
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/eu-sou-a-lenda.jpg" alt="Eu sou a Lenda" class="w-100 rounded"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <!-- Lista de filmes 3 -->
+         <div class="row no-gutters">
+            <div class="col-12">
+               <div class="p-3 list-titles">
+                  <h2 class="h4">Continuar assistindo como <span class="text-uppercase">Fernanda Sene</span></h2>
+                  
+                  <div class="d-flex flex-nowrap overflow-hidden">
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/thor-o-mundo-sombrio.jpg" alt="Thor: o mundo sombrio" class="w-100 rounded"></a>
+                     
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/homem-de-ferro-2.jpg" alt="Homem de ferro 2" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/capitao-america-o-primeiro-vingador.jpg" alt="Capitão America" class="w-100 rounded"></a>
+                     
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/eu-sou-a-lenda.jpg" alt="Eu sou a Lenda" class="w-100 rounded"></a>
+                     
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/nosso-planeta.jpg" alt="Nosso Planeta" class="w-100 rounded"></a>
+
+                     <a href="#" class="zoom px-1 my-3"><img src="./assets/img/series/the-rain.jpg" alt="The Rain" class="w-100 rounded"></a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <footer class="footer-cor row no-gutters p-3">
+            <a href="" class="col-12 col-md-3 text-reset">Termos de Uso</a>
+            <a href="" class="col-12 col-md-3 text-reset">Declaração de Privacidade</a>
+            <a href="" class="col-12 col-md-3 text-reset">Preferência de Cookies</a>
+            <a href="" class="col-12 col-md-3 text-reset">Centro de Ajuda</a> 
+         </footer>
+      </div>
+
+      <script src=" assets/js/jquery-3.4.0.min.js"></script>
+      <script src="assets/js/popper.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+
+      <script>
+         const btn = document.querySelector('.navbar-toggler');
+         const navbar = document.querySelector('.navbar');
+
+         btn.addEventListener('click', e => {
+            navbar.classList.toggle('sidebar-open');
+
+            if(navbar.classList.contains('sidebar-open')){
+               const backdrop = document.createElement('div');
+               backdrop.classList.add('backdrop');
+
+               backdrop.addEventListener('click', e => {
+                  navbar.classList.remove('sidebar-open');
+                  document.querySelector('.backdrop').remove();
+               });
+
+               document.querySelector('body').append(backdrop);
+            }else{
+               document.querySelector('.backdrop').remove();
+            }
+         });
+      </script>
+   </body>
+</html>

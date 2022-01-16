@@ -1,0 +1,177 @@
+/* Estilo para tablet */
+@media only screen and (min-width: 869px) and (max-width: 1060px){
+	
+	/* Qualidade Home */
+	.qualidade::after{
+		right: 62px;
+	}
+
+	.qualidade_lista li{
+		padding: 0 10px;
+	}
+
+	/* Footer */
+	.footer_redes ul li a{
+		border: 3px solid #FEC63E;
+		display: block;
+		padding: 6px;
+	}
+
+	.footer_redes ul li a img{
+		width: 26px;
+		height: 26px;
+	}
+
+	/* Produtos */
+	.produto_item h2{
+		margin-bottom: -56px;
+		position: relative;
+		top: -150px;
+	}
+	
+	.produto_icone{
+		padding: 41px 0;
+	}
+
+	.produto_info p{
+		height: 121.5px;
+		padding: 20px 30px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.produto_info ul li{
+		width: 181px;
+	}	
+}
+
+/* Estilo para smartphone */
+@media only screen and (max-width: 868px){
+	
+	/* Introducao */
+	.introducao-sobre, .introducao-produtos, .introducao-portfolio, .introducao-contato{
+		margin-top: 0;
+	}
+
+	/* Header */
+	.header{
+		padding-bottom: 0;
+		position: relative;
+	}
+
+	.header img{
+		padding-top: 10px;
+		margin: 0 auto 10px auto;
+	}
+
+	.header_menu{
+		text-align: center;
+	}
+
+	.header_menu ul li{
+		margin: 5px;
+	}
+	
+	.header_menu ul li a{
+		width: 136px;
+		float: left;
+		border: 4px solid #000;
+		display: block;
+	}
+
+	.header_menu ul li a:hover{
+		transition: .2s;
+		color: #FFF;
+		border-color: #FFF;
+	}
+
+	/* Introducao Home */
+	.introducao{
+		padding: 0;
+		padding-top: 40px;
+		margin-top: 0;
+		background: url(../img/home/bg-mobile.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	.introducao h1{
+		font-size: 36px;
+	}
+
+	/* Call */
+	.call{
+		padding-top: 10px;
+	}
+
+	/* Qualidade Home */
+	.qualidade::after{
+		display: none;
+	}
+
+	/* Produtos */
+	.produto_item h2{
+		margin-bottom: -68px;
+		top: -100px;
+		font-size: 28px;
+	}
+	
+	.produto_icone{
+		padding: 41px 0;
+	}
+
+	.produto_info p{
+		height: auto;
+		padding: 20px 30px;
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.produto_info ul li{
+		width: 149px;
+		padding-top: 14px;
+		font-size: 14px;
+		line-height: 20px;
+	}	
+
+	.btn-sobre{
+		padding: 10px 40px;
+	}
+
+	/* Orcamento Produtos */
+	.form{
+		padding-right: 0;
+	}
+
+	.orcamento_dados ul{
+		padding-right: 0;
+	}
+
+	/* Contato */
+	.contato_form{
+		padding-right: 0;
+		margin-bottom: 40px;
+	}
+
+	.contato_mapa{
+		margin-bottom: 40px;
+	}
+	
+	/* Quebra adc */ 
+	.quebra{
+		height: 150px;
+		padding-top: 8px;
+	}
+
+	/* Footer */
+	.footer_redes ul li a{
+		padding: 8px;
+	}
+
+	.copy{
+		padding: 20px 0;
+	}
+	
+	.copy p{
+		margin: auto 0;
+	}
+}

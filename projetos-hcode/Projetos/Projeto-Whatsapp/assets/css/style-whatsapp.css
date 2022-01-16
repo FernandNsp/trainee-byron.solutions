@@ -1,0 +1,110 @@
+/* GERAL */
+
+body{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   letter-spacing: .05em;
+}
+
+header{
+   background-color: #eeeeee;
+   padding: 5px;
+   min-height: 60px;
+}
+
+.img{
+   height: 50px;
+   margin-right: 10px;
+}
+
+/* LATERAL */
+
+.img-avatar{
+   border-radius: 50%;
+}
+
+/* Barra Pesquisa */
+section.barra-pesquisa{
+   background-color: #f8f8f8;
+}
+
+input#search{
+   min-width: calc(100vh - 400px);
+   margin: .4rem 1rem .4rem 1rem;
+}
+
+#search::placeholder{
+   color: rgba(128, 128, 128, 0.568);
+   text-align: center;
+}
+
+/* Mensagens */
+
+
+.list-group-item{
+   border-radius: 0!important;
+   border-left: none;
+   border-right: none;
+   border-color: #f8f8f8;
+}
+.h6{
+   font-weight: bold;
+   margin: 0;
+}
+
+.hour{
+   color: #999;
+   font-size: .75em;
+}
+
+.badge{
+   background-color: #09d261;
+}
+
+.contacts-border{
+   border-bottom: 1px solid #f8f8f8;
+}
+
+#menu{
+   border-right: #dbdbdb 1px solid;
+   color: #4d4d4d;
+}
+
+.small{
+   color: #9b9b9b;
+}
+
+.small-verde{
+   color: #09d261;
+}
+
+
+/* MAIN */
+
+section .main{
+   min-height: calc(100vh - 122px);
+   background-color: #e5ddd5;
+}
+
+/* FOOTER */
+section .footer{
+   min-height: calc(16.2vh - 54px);
+   background-color: #eeeeee;
+}
+
+input{
+   width: 100%;
+   padding: .2rem .8rem;
+   margin-bottom: 10px;;
+   outline: none;
+   display: block;
+}
+
+#message{
+   margin: .8rem 3rem .6rem 5rem;
+}
+
+#message::placeholder{
+   color: rgba(128, 128, 128, 0.568);
+   margin-left: 4px;
+   text-align: left;
+}
